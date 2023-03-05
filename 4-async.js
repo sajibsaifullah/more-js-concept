@@ -8,9 +8,14 @@ console.log(1);
 console.log(2);
 // doSomething();
 
-setTimeout(() => {
-    console.log('lazy logged');
+const timeoutId = setTimeout(() => {
+    // console.log('lazy logged');
 }, 4000);
+
+let num = 0;
+const intervalId = setInterval(() => {
+    // console.log(num++);
+}, 1000)
 
 // fetch('https://jsonplaceholder.typicode.com/todos/1')
 //     .then(response => response.json())
