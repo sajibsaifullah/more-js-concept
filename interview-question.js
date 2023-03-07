@@ -1,4 +1,5 @@
 /* 
+******* What is javascript?
 1. Tell me some thing about JS engine v8 internal mechanism.
 2. What is event loop in JavaScript?
 3. If javascript single threaded, how does it handle asynchronous call?
